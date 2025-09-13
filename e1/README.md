@@ -150,7 +150,7 @@ No se emplearon jerarquías en entidades como **PrestaciónFonasa** o **Receta**
 El diseño resuelve los principales criterios. Garantiza **Fidelidad** al modelo E/R, ya que todas las entidades, relaciones y atributos del dominio fueron representados de buena manera en el esquema sin perder información. En segundo lugar, evita la **Redundancia**, dado que cada hecho del mundo real se almacena en una única tabla y no se repiten atributos innecesarios, por ejemplo los datos de la persona se registran una sola vez en **Persona**, lo anterior contribuye a prevenir **Anomalias** de inserción, actualización y eliminación, ya que todos los atributos dependen exclusivamente de la clave primaria de su relación. Se logro también la **Simplicidad**, se opto por un diseño claro y normalizado, en el que cada tabla tiene un propósito bien definido. Y por ultimo hay una buena elección de llaves primarias, se privilegia el uso de llaves naturales cuando existen, y se recurre a las surrogates keys en algunos casos.
 
 
-![Diagrama del modelo E/R]("Crazy Frog E1 Diagram.svg")
+![Diagrama del modelo E/R]("./Crazy Frog E1 Diagram.svg")
 
 
     
